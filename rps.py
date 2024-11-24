@@ -6,7 +6,7 @@ import random
 
 playing = True
 
-while True:
+while playing:
     user_action = input("Enter throw (rock, paper, scissors): ")
     ai_action = random.choice(["rock", "paper", "scissors"])
 
